@@ -6,22 +6,24 @@ import { SharedService } from '../../services/shared.service';
   selector: 'shared-footer',
   templateUrl: './footer.component.html',
   styles: [`
-    .list-inline-item {
-      margin: 1rem; /* Space between items */
-    }
+  .list-inline-item {
+    margin: 1rem; /* Space between items */
+    margin-top: 2rem;
+  }
 
-    .list-inline-item i {
-      font-size: 1.5rem; /* Increase icon size */
-    }
+  .list-inline-item i {
+    font-size: 1.5rem; /* Increase icon size */
+    color: white;
+  }
 
-   .footer {
-        padding-top: 1rem;
-        padding-bottom: 0.5rem;
-        background-color: #2c3e50;
-        bottom: 0; /* Align to the bottom */
-        color: white; /* Text color for contrast */
-        text-align: center;
-      }
+  .footer {
+    background-color: #2c3e50;
+    color: white; /* Text color for contrast */
+    text-align: center;
+    position: absolute; /* Position it at the bottom */
+    bottom: 0; /* Align to the bottom of the page */
+    width: 100%; /* Ensure the footer spans full width */
+  }
   `]
 })
 export class FooterSharedComponent {
