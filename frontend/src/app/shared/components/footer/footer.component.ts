@@ -14,10 +14,14 @@ import { SharedService } from '../../services/shared.service';
       font-size: 1.5rem; /* Increase icon size */
     }
 
-    .footer {
-    padding-top: 1rem;
-    background-color: #2c3e50;
-    }
+   .footer {
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+        background-color: #2c3e50;
+        bottom: 0; /* Align to the bottom */
+        color: white; /* Text color for contrast */
+        text-align: center;
+      }
   `]
 })
 export class FooterSharedComponent {
