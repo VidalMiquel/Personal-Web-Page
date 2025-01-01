@@ -15,15 +15,16 @@ import { Component } from '@angular/core';
         text-align: center; /* Ensure text inside is centered */
     }
 
+    .title{
+        color: #2c3e50;
+    }
+
     .btn {
     background-color: #2c3e50;
     color: white;
     transition: color 0.3s ease; /* Smooth transition for text color change */
     }
 
-    .btn:hover {
-    color: #000000; /* Color on hover (adjust as needed) */
-    }
     `,
     ],
 

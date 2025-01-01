@@ -1,15 +1,15 @@
 <div class="text-center footer">
-    <nav>
-      <ul class="list-inline text-center">
-        <li *ngFor="let item of contactElements" class="list-inline-item">
-          <a
-            class="btn btn-outline-light btn-social"
-            target="_blank"
-            href="{{item.redirectName}}"
-            title="{{item.name}}">
-            <i class="{{item.html}}"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
+  <nav>
+    <ul class="list-inline text-center">
+      <li *ngFor="let item of contactElements" class="list-inline-item">
+        <a
+          class="btn"
+          target="_blank"
+          href="{{item.redirectName}}"
+          title="{{item.name}}">
+          <i class="{{item.html}}"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
 </div>
